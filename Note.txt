@@ -1,0 +1,7 @@
+docker load --input <name>.tar
+
+Need to change name of images : 
+
+docker.getcollate.io/openmetadata/postgresql:1.1.0 -- >  openmetadata/postgresql:1.1.0
+docker.elastic.co/elasticsearch/elasticsearch:7.16.3 -->  elasticsearch/elasticsearch:7.16.3
+docker.getcollate.io/openmetadata/ingestion:1.1.0 -->  openmetadata/ingestion:1.1.0
